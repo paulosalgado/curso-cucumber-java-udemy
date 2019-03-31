@@ -25,10 +25,11 @@ Funcionalidade: Aprender Cucumber
     * que o nome do passageiro é "Cicrano de Oliveira"
     * que o telefone do passageiro é 9888-8888
 
-#  Cenário: Deve negar todos os steps "Dado" dos cenários anteriores
-#    Dado que o ticket é CD123
-#    E que o ticket é AG1234
-#    E que o valor da passagem é R$ 1.1345,56
-#    E que o nome do passageiro é "Beltrano Souza Matos de Alcântara Azevedo"
-#    E que o telefone do passageiro é 1234-5678
-#    E que o telefone do passageiro é 999-2223
+@ignore
+  Cenário: Deve negar todos os steps "Dado" dos cenários anteriores
+    Dado que o ticket é CD123
+    E que o ticket é AG1234
+    E que o valor da passagem é R$ 1.1345,56
+    E que o nome do passageiro é "Beltrano Souza Matos de Alcântara Azevedo"
+    E que o telefone do passageiro é 1234-5678
+    E que o telefone do passageiro é 999-2223

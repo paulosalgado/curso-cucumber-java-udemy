@@ -20,7 +20,7 @@ public class EntregaSteps {
     }
 
     @Quando("^a entrega atrasar em (\\d+) (dia|dias|mês|meses|ano|anos)$")
-    public void aEntregaAtrasarEmDias(int arg1, String arg2) {
+    public void aEntregaAtrasarEm(int arg1, String arg2) {
 
         switch (arg2) {
             case "dia":
